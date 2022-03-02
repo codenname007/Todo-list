@@ -7,7 +7,7 @@ const randomIndex = Math.floor(Math.random()*background.length);
 
 function makeUrl(){
   return `url('../image/${background[randomIndex]})
-  no-repeat center center`')
+  no-repeat center center')`
 }
 
 body.style.background = makeUrl();

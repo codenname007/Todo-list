@@ -24,7 +24,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background : url(../image/배경1.jpg)
+  background : url('../image/배경1.jpg')
   no-repeat center center;
   background-size : cover;
   height: 100vh;

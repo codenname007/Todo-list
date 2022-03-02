@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Noto+Sans&family=Poppins:ital,wght@1,100&family=Righteous&display=swap');
+
+:root {
+  /*Color*/
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff000;
+  --gold-color: gold;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /*Size*/
+  --padding: 20px;
+  --avatar-size: 250px;
+  --frame-size : 400px;
+
+  /*FontSize*/
+  --font-large: 40px;
+  --font-medium: 25px;
+  --font-small: 20px;
+  --font-micro: 15px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background : url(../image/배경1.jpg)
+  no-repeat center center;
+  background-size : cover;
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+  color : black;
+  position: relative;
+}
+
+
+ul{
+  padding : 0;
+}
+
+input{
+  background : none;
+  border : none;
+}
+
+li{
+  list-style: none;
+}
+
+.hidden {
+  display : none !important;
+}
+
+button{
+  border : none;
+  background: none;
+  cursor : pointer;
+}
+
+.loginContainer{
+  position: absolute;
+  left : 50%;
+  top : 50%;
+  transform: translate(-50%, -50%);
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginContainer h2{
+  font-size: 80px;
+  font-family: 'Righteous', cursive;
+  color : crimson;
+  background-color: rgba(245, 220, 220, 0.4);
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  margin : 0;
+}
+
+.loginContainer #login-box{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top : calc(var(--padding)*4);
+}
+
+
+#login-box input{
+  font-size: var(--font-medium);
+  text-align: center;
+  background-color: white;
+  opacity: 0.5;
+  color : black;
+  border-radius: 5px;
+}
+
+#login-box input::placeholder{
+  color : black;
+  border: none;
+  box-sizing: border-box;
+}
+
+#login-box button {
+  margin-top : var(--padding);
+  font-size: var(--font-medium);
+  color : var(--black-color);
+  background-color: white;
+  opacity: 0.5;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.loginContainer #greeting{
+  color : white;
+  font-size: var(--font-large);
+}
+
+#todo-form input{
+  font-size: var(--font-medium);
+  text-align: center;
+}
+
+#todo-form input::placeholder{
+  color :black;
+  text-align: center;
+  background-color: rgba(245, 220, 220, 0.4);
+  border-radius: 5px;
+}
+
+#todo-list{
+  font-size: var(--font-small);
+}
+
+#todo-list li{
+  font-family: 'Noto Sans', sans-serif;
+  display :flex;
+  justify-content: space-between;
+  padding : 0px 10px;
+  background-color: rgba(245, 220, 220, 0.4);
+  border-radius: 5px;
+  font-size: var(--font-small);
+  text-align: center;
+  margin-bottom : 10px;
+  
+}
+
+#quote {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-small);
+  background-color: rgba(245, 220, 220, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color : black;
+  font-family: 'Hubballi', cursive;
+}
+
+#weather {
+  position: absolute;
+  right: 0;
+  margin : calc(var(--padding)/2);
+  background-color: rgba(245, 220, 220, 0.4); 
+  border-radius: 10px;;
+  color : black;
+  font-weight: bold;
+}

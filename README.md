@@ -4,6 +4,7 @@
 
 ## Description 
 
+- Language : html, css, js
 - 간단한 Todo-List 기능 + Random배경 
 - Local storage 활용
 

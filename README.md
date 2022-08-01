@@ -10,4 +10,4 @@
 - Weahter API 사용
 
 ### URL 
-- url : https://codenname007.github.io/Todo-list/
+- url : https://codeblue007.github.io/Todo-list/
